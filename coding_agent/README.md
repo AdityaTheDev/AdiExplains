@@ -1,6 +1,6 @@
-# Building an LLM Harness from Scratch with Python and Gemini
+# Building an LLM Harness/Coding Agent from Scratch with Python and Gemini
 
-A simple, educational implementation of an AI coding agent that demonstrates how an **LLM harness works under the hood**.
+A simple, educational implementation of an AI coding agent that demonstrates how an **LLM harness/Coding Agent works under the hood**.
 
 Instead of using Gemini's native function-calling feature, this project implements text-based tool calling using Python. Gemini generates a tool request in a predefined text format, and Python parses the request, executes the corresponding function, and sends the result back to the model.
 
