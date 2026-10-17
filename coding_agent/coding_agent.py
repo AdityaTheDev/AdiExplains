@@ -206,9 +206,7 @@ All file operations must remain inside the configured workspace.
 
         return f"Successfully edited: {file_path}"
 
-    # ---------------------------------------------------------
-    # TOOL REGISTRATION AND SYSTEM PROMPT
-    # ---------------------------------------------------------
+    # tool registration and system prompt construction
 
     def _build_system_prompt(self) -> str:
         """Describe registered tools and their arguments to the LLM."""
